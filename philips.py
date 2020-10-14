@@ -100,6 +100,8 @@ def main():
             config['path'] = "6/ambilight/cached"
         elif args.command == "get_ambilight":
             config['path'] = "6/ambilight/currentconfiguration"
+        elif args.command == "get_ambilight_lounge":
+            config['path'] = "6/ambilight/lounge"
         elif args.command == "get_ambilight_mode":
             config['path'] = "6/ambilight/mode"
         elif args.command == "get_ambilight_topology":
